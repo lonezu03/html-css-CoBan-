@@ -1,0 +1,54 @@
+.container{
+  font-family: "Trirong", serif;
+}
+.menu{
+      height: 40px;
+      background-color: greenyellow;
+      border-radius: 6px;
+      align-content: center;
+      justify-content: center;
+      font-family: "Trirong", serif;
+      
+}
+li{
+  list-style: none;
+}
+.menu>ul>li {
+  margin: 0 45px; /* Khoảng cách giữa các mục */
+  font-weight: bold;
+  font-size: large;
+
+}
+.menu>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Hiển thị các mục dọc theo trục ngang */
+  align-content: center;
+  justify-content: center;
+  
+}
+.menu>ul>li:hover{
+  color:yellow;
+}
+.content{
+  margin-top: 30px;
+}
+.trai{
+  float:left;
+  margin-bottom: 5px;
+  width: 20%;
+}
+.trai>ul>li{
+  border-bottom: 3px;
+ border-color: aliceblue;
+}
+.giua{
+  float:left;
+  width: 60%;
+
+}
+.phai{
+  float:right;
+  width: 20%;
+}
